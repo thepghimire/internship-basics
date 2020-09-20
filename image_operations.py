@@ -17,5 +17,5 @@ img[0:250, 0:183] = monkey_face
 
 
 cv2.imshow("Image", img)
-cv2.waitKey(0)
+cv2.waitKey(0) 
 cv2.destroyAllWindows()

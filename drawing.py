@@ -13,7 +13,7 @@ pts = np.array([[10,5],[20,30],[70,30],[50,10],[100,500]], dtype=np.int32)
 pts = pts.reshape((-1,1,2)) #Already the case here. 
 cv2.polylines(img, [pts], True, (0,255,255), 3) #True: Connect final point to first point or no?
 
-#Write:
+#Texts on image:
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(img, "Hello There!", (0,130), font, 7, (200,255,255), 5, cv2.LINE_AA)
 
